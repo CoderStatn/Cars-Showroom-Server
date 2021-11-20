@@ -5,7 +5,7 @@ const ObjectId = require('mongodb').ObjectId;
 require('dotenv').config();
 const { MongoClient } = require('mongodb');
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 6000;
 
 
 //middleware
